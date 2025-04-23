@@ -161,12 +161,13 @@ English | [简体中文](https://github.com/yihong0618/running_page/blob/master/
 Clone or fork the repo.
 
 ```bash
-git clone https://github.com/yihong0618/running_page.git --depth=1
+git clone https://github.com/yiling615/running_page.git --depth=1
 ```
 
 ## Installation and testing (node >= 20 python >= 3.11)
 
 ```bash
+cd running_page
 pip3 install -r requirements.txt
 npm install -g corepack && corepack enable && pnpm install
 pnpm develop
