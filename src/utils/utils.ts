@@ -310,19 +310,25 @@ const titleForRun = (run: Activity): string => {
   if (runDistance >= 40) {
     return RUN_TITLES.FULL_MARATHON_RUN_TITLE;
   }
-  if (runHour >= 0 && runHour <= 10) {
+  if (runHour >= 4 && runHour <= 8) {
     return RUN_TITLES.MORNING_RUN_TITLE;
   }
-  if (runHour > 10 && runHour <= 14) {
+  if (runHour > 8 && runHour <= 11) {
+    return RUN_TITLES.LATE_MORNING_RUN_TITLE;
+  }
+  if (runHour > 11 && runHour <= 14) {
     return RUN_TITLES.MIDDAY_RUN_TITLE;
   }
-  if (runHour > 14 && runHour <= 18) {
+  if (runHour > 14 && runHour <= 17) {
     return RUN_TITLES.AFTERNOON_RUN_TITLE;
   }
-  if (runHour > 18 && runHour <= 21) {
+  if (runHour > 17 && runHour <= 19) {
     return RUN_TITLES.EVENING_RUN_TITLE;
   }
-  return RUN_TITLES.NIGHT_RUN_TITLE;
+  if (runHour > 19 && runHour <= 23){
+    return RUN_TITLES.NIGHT_RUN_TITLE;
+  }
+  return RUN_TITLES.MIDNIGHT_RUN_TITLE;
 };
 
 export interface IViewState {

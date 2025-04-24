@@ -70,10 +70,12 @@ const INFO_MESSAGE = IS_CHINESE ? CHINESE_INFO_MESSAGE : ENGLISH_INFO_MESSAGE;
 const FULL_MARATHON_RUN_TITLE = IS_CHINESE ? '全程马拉松' : 'Full Marathon';
 const HALF_MARATHON_RUN_TITLE = IS_CHINESE ? '半程马拉松' : 'Half Marathon';
 const MORNING_RUN_TITLE = IS_CHINESE ? '清晨跑步' : 'Morning Run';
+const LATE_MORNING_RUN_TITLE = IS_CHINESE ? '上午跑步' : 'Late Morning Run';
 const MIDDAY_RUN_TITLE = IS_CHINESE ? '午间跑步' : 'Midday Run';
 const AFTERNOON_RUN_TITLE = IS_CHINESE ? '午后跑步' : 'Afternoon Run';
 const EVENING_RUN_TITLE = IS_CHINESE ? '傍晚跑步' : 'Evening Run';
 const NIGHT_RUN_TITLE = IS_CHINESE ? '夜晚跑步' : 'Night Run';
+const MIDNIGHT_RUN_TITLE = IS_CHINESE ? '深夜跑步' : 'Midnight Run'
 const RUN_GENERIC_TITLE = IS_CHINESE ? '跑步' : 'Run';
 const RUN_TRAIL_TITLE = IS_CHINESE ? '越野跑' : 'Trail Run';
 const RUN_TREADMILL_TITLE = IS_CHINESE ? '跑步机' : 'Treadmill Run';
@@ -107,10 +109,12 @@ const RUN_TITLES = {
   FULL_MARATHON_RUN_TITLE,
   HALF_MARATHON_RUN_TITLE,
   MORNING_RUN_TITLE,
+  LATE_MORNING_RUN_TITLE,
   MIDDAY_RUN_TITLE,
   AFTERNOON_RUN_TITLE,
   EVENING_RUN_TITLE,
   NIGHT_RUN_TITLE,
+  MIDNIGHT_RUN_TITLE,
 };
 const ACTIVITY_TOTAL = {
     ACTIVITY_COUNT_TITLE,
