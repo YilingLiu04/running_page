@@ -13,6 +13,7 @@ import '@/styles/index.css';
 import { withOptionalGAPageTracking } from './utils/trackRoute';
 import HomePage from "@/pages/total";
 import { SpeedInsights } from '@vercel/speed-insights/react';
+import { Analytics } from "@vercel/analytics/react"
 
 if (USE_GOOGLE_ANALYTICS) {
   ReactGA.initialize(GOOGLE_ANALYTICS_TRACKING_ID);
@@ -41,6 +42,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     <HelmetProvider>
       <RouterProvider router={routes} />
 	      <SpeedInsights />
+          <Analytics/>
     </HelmetProvider>
   </React.StrictMode>
 );
