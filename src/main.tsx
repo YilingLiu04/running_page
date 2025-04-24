@@ -41,7 +41,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <HelmetProvider>
       <RouterProvider router={routes} />
-	      <SpeedInsights />
+	     <SpeedInsights />
           <Analytics/>
     </HelmetProvider>
   </React.StrictMode>
